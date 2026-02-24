@@ -1,8 +1,7 @@
-## Plantilla no oficial Universidad de Alcalá
+## UAH Beamer Template (University of Alcalá)
 
-Este repositorio contiene una plantilla no oficial siguiendo las directrices sobre [imagen corporativa de la UAH](https://portal.uah.es/portal/page/portal/servicio_comunicacion/imagen_institucional/documentos/manual_basico_identidad_institucional.pdf).
+This repository contains an unofficial template that follows the [UAH institutional branding guidelines](https://uah.es/es/imagen-institucional/).
 
-La plantilla está escrita tanto en LaTeX como en RMarkdown.  Puedes ver un [ejemplo aquí](https://github.com/dfbarrero/UAH-beamer-template/main.pdf).
 
-## Compilación
-La plantilla utiliza la fuente corporativa de la UAH, por lo que no se debe compilar con pdflatex. Utilizar xelatex o lualatex como procesadores de LaTeX.
+## Compilation
+The template uses the official corporate typography (Inter) and logos included in `fonts/` and `logos/`, so it should not be compiled with `pdflatex`. Use `xelatex` or `lualatex` as the LaTeX engines.
